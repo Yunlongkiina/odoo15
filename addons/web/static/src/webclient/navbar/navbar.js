@@ -37,9 +37,9 @@ export class MenuItem extends DropdownItem {
         useEffect(
             () => {
                 //this.el.dataset.img = "test"
-                console.log('====================================');
-                console.log(this.props.payload);
-                console.log('====================================');
+                // console.log('====================================');
+                // console.log(this.props.payload);
+                // console.log('====================================');
                 if (this.props.payload.id) {
                     this.el.dataset.section = this.props.payload.id;
                 }
