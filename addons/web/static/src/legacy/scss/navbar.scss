@@ -6,7 +6,8 @@
 // = Main Navbar
 // ============================================================================
 .o_main_navbar {
-  background-color: $o-brand-odoo;
+  // background-color: $o-brand-odoo;
+  background-color: black;
   border-bottom: 1px solid $o-navbar-inverse-link-hover-bg;
   display: grid;
   height: $o-navbar-height;
